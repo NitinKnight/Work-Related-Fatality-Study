@@ -16,8 +16,8 @@
      - description
      - plan
      - citation
-
-4. **import `fatalities_cleaned.csv` dataset by selecting `fatalities_cleaned` table.**
+**Refer to 'fatalities_cleaned_table.sql' file for the code for MySQL database.
+4. **Import `fatalities_cleaned.csv` dataset by selecting `fatalities_cleaned` table.**
 
 5.  **Update Connection Details**
    - Open the `db.py` file.
