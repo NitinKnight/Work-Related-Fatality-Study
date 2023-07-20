@@ -32,7 +32,9 @@ def export_the_dataset():
     return df
 
 # Task 4: This section pertains to loading the cleaned dataset into the provided database.
-# Detailed steps need to be followed as per the Task 4 instructions.
+# Generate Tables Using Cleaned Dataset
+##Check the instruction file for module 1: MySQL Table Creation Instruction
+
 
 # Ensuring that the MySQL table has been created using "fatalities_cleaned"
 # This final cleaned dataset will be uploaded onto the provided database for subsequent analysis in MySQL.
