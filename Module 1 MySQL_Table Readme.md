@@ -1,0 +1,22 @@
+# Instructions
+
+1. **Download Dataset**
+   - Download the `fatalities_cleaned.csv` dataset.
+   
+2. **MySQL Database Access**
+   - Use the credentials provided in "Database info" to log in to MySQL.
+
+3. **Table Creation**
+   - Once logged in, create a table named `fatalities_cleaned` with the following columns:
+     - id
+     - incident_date
+     - day_of_week
+     - city
+     - state
+     - description
+     - plan
+     - citation
+
+4. **Update Connection Details**
+   - Open the `db.py` file.
+   - Update the database connection details accordingly.
