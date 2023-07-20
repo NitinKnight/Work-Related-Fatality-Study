@@ -17,6 +17,8 @@
      - plan
      - citation
 
-4. **Update Connection Details**
+4. **import `fatalities_cleaned.csv` dataset by selecting `fatalities_cleaned` table.**
+
+5.  **Update Connection Details**
    - Open the `db.py` file.
    - Update the database connection details accordingly.
