@@ -16,7 +16,9 @@
      - description
      - plan
      - citation
-**Refer to 'fatalities_cleaned_table.sql' file for the code for MySQL database.
+
+**Refer to 'fatalities_cleaned_table.sql' file for the code for MySQL database.**
+
 4. **Import `fatalities_cleaned.csv` dataset by selecting `fatalities_cleaned` table.**
 
 5.  **Update Connection Details**
