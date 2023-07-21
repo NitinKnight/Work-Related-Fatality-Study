@@ -35,6 +35,9 @@ This project will guide users through SQL analysis of a real-world database, dat
     - `fatalities_cleaned.csv`: Processed and cleaned dataset.
    
   6. **Conclusion and Report**:
-     - ` fatality.csv`:
+     - ` Conclusion and Reporting.md`: Final Report and Insight of fatality analysis.
+    
+ 7. **Readme**:
+    - ` MySQL_Table Readme.md`: Instruction for MySQL Database related in `module1.py`
    
       
