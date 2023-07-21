@@ -16,3 +16,25 @@ The Work-Related Fatality Study is a comprehensive analysis of fatal incidents t
 
 ## Project Description
 This project will guide users through SQL analysis of a real-world database, data extraction, preprocessing with Python, and structured query execution.
+
+## Files in the Project
+
+1. **Modules**:
+   - `module1.py`: Contains Python data Pre-processing for fatality analysis.
+   - `module2.sql`: Data Analysis using MySQL for cleaned fatality data.
+   - `module3.py`: Visualization and report for fatality data analysis.
+  
+2. **SQL Files**:
+   - `fatalities_cleaned_table.sql`: MySQL query to create table in database.
+   
+ 4. **Database info Files**:
+    - `db.py`: Database Configuration
+
+ 5. **Datasets**:
+    - ` fatality.csv`: Main dataset for fatality analysis.
+    - `fatalities_cleaned.csv`: Processed and cleaned dataset.
+   
+  6. **Conclusion and Report**:
+     - ` fatality.csv`:
+   
+      
