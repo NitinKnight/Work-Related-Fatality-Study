@@ -40,4 +40,9 @@ This project will guide users through SQL analysis of a real-world database, dat
  7. **Readme**:
     - ` MySQL_Table Readme.md`: Instruction for MySQL Database related in `module1.py`
    
+ 8. **Power BI Guide**:
+    - `Power BI.md`: Instructive guide to create two new columns: `Incident category` and `Incident Severnity` for fatatality analysis.
+   
+      
+   
       
