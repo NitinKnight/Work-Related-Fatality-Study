@@ -2,7 +2,7 @@
 
 ## 1. Importing the Data:
 
-```plaintext
+
 - Open Power BI Desktop.
 - Go to "Home" > "Get Data".
 - Choose "CSV", then navigate to and select your CSV file.
@@ -40,19 +40,12 @@ SWITCH(TRUE(),
     CONTAINSSTRING([Description], "machine"), "Machinery",
     "Other"
 )
+```
 
 
 ## 3. Assigning Severity:
 
-# Incident Severity
 
-Severity is assigned based on the incident's category:
-
-- **Electrical**: Severity level is `Critical`.
-- **Falls**: Severity level is `Major`.
-- **Machinery**: Severity level is `Minor`.
-
-```plaintext
 - Similarly, create another new column for severity:
 
 ```dax
@@ -63,10 +56,11 @@ SWITCH([Incident Category],
     "Machinery", "Minor",
     "Other", "Unknown"
 )
+```
 
 
 ## 4. Publishing and Sharing:
 
-```plaintext
+
 - Once you've created your report, click "Publish" in the Home ribbon to upload it to the Power BI Service.
 - In the Power BI Service, you can share the report with others, schedule data refreshes, and more.
