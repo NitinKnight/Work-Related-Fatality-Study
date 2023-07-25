@@ -10,6 +10,25 @@
 
 ## 2. Categorizing Incidents:
 
+# Incident Categories
+
+Incidents are categorized based on specific keywords found in their descriptions. Here's a breakdown:
+
+- **Electrical**: Keywords include:
+  - `electric`
+  - `shock`
+  - `circuit`
+  
+- **Falls**: Keywords include:
+  - `fell`
+  - `falling`
+  - `slipped`
+  
+- **Machinery**: Keywords include:
+  - `machine`
+  - `equipment`
+  - `mechanical`
+
 - In the "Fields" pane, right-click on your table and choose "New Column".
 - Use the DAX formula language to create a new column. Here's a simple example for categorizing incidents:
 
@@ -24,6 +43,14 @@ SWITCH(TRUE(),
 
 
 ## 3. Assigning Severity:
+
+# Incident Severity
+
+Severity is assigned based on the incident's category:
+
+- **Electrical**: Severity level is `Critical`.
+- **Falls**: Severity level is `Major`.
+- **Machinery**: Severity level is `Minor`.
 
 ```plaintext
 - Similarly, create another new column for severity:
